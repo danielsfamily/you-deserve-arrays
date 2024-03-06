@@ -1,4 +1,4 @@
-const getFirstItemFrom = require('assert');
+const assert = require('assert');
 const {
   getFirstItemFrom,
   getLastItemFrom,

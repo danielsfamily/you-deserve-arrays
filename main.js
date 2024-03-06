@@ -1,32 +1,42 @@
 /******************
  * YOUR CODE HERE *
- ******************
-function  getFirstItem (arr) {
-  return arr [0];
-}
-console.log
-
-function getFirstItem (arr) {
-  return arr[arr.legnth-1];
+ ******************/
+function getFirstItemFrom(arr) {
+  return arr[0];
 }
 
-function getindex3 (arr) {
-  return [3];
+
+function getLastItemFrom(arr) {
+  return arr[arr.length -1];
 }
 
-function isLongList (arr) {
-  if (arr.length > 10) {
+function getIndex3(arr) {
+   if (arr.length < 4) {
+    return arr[arr.length -1];
+   } else {
+    return arr[3];
+   }
+}
+
+function isLongList(arr) {
+  if (arr.length >= 10) {
     return true;
   } else {
     return false;
   }
 }
 
-function firstItemIsNumber (arr) {
-  if (typeof arr [0]  ==="number") {
+function firstItemIsNumber(arr) {
+  if (typeof arr[0]  === "number") {
   return true;
   } else {
   return false;
+  }
+}
+
+function secondCharOfThirdString (arr) {
+  if (typeof arr[2] === "string") {
+    return arr[2][1];
   }
 }
 
